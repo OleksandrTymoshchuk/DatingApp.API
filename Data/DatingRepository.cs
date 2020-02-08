@@ -131,7 +131,7 @@ namespace DatingApp.API.Data
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<Message>> GetMessageThread(int userId, int recepientId)
+        public Task<IEnumerable<Message>> GetMessageThread(int userId, int recipientId)
         {
             throw new NotImplementedException();
         }
