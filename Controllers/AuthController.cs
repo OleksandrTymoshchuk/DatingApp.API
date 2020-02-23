@@ -72,7 +72,6 @@ namespace DatingApp.API.Controllers
             }
 
             return Unauthorized();
-
         }
 
         private async Task<string> GenerateJwtToken(User user)
